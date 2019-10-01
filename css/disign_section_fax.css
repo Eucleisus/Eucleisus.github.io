@@ -1,0 +1,19 @@
+/* Section_fax*/
+	@font-face{
+		font-family: dayrom;
+		src: url('polices/dayrom.eot') format('eot'),
+			 url('polices/dayrom.woff') format('woff'),
+			 url('polices/dayrom.ttf') format('truetype'),
+			 url('polices/dayrom.svg') format('svg');
+		}
+	#section_fax{
+		background-color: rgba(50,20,50,0.5);
+	}
+	.liste_fax{
+		text-align: left;
+		font-family: dayrom, verdana, serif;
+	}
+	#section_fax a {
+		text-decoration: none;
+		color: rgb(250,250,250);
+	}

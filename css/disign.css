@@ -1,0 +1,259 @@
+ 
+ /*=================================== La page global */
+
+@font-face{
+font-family: dayrom;
+src: url('polices/dayrom.eot') format('eot'),
+	 url('polices/dayrom.woff') format('woff'),
+	 url('polices/dayrom.ttf') format('truetype'),
+	 url('polices/dayrom.svg') format('svg');
+}
+
+
+ #conteneur{
+	 margin: auto;
+	 min-width: 95%;
+	 background-color: rgb(200,200,200);
+	 font-family:dayrom, serif;
+ }
+ 
+ h1{
+	 text-align:center;
+ }
+ /*====================================== Le header */
+
+ header{
+	 width: 100%;
+	/* background-image: url("images/images_219.jpg");
+	 background-repeat: repeat; */
+	 /*background-color: white;/*rgb(128,128,128);*/
+	 margin:auto;
+	 background-color: black;
+	 color:white;
+ }
+ /* la partie guauche */
+ #site_logo{
+	 display: inline-block;
+	 width: 50%;
+	 padding-bottom:10px;
+ }
+ 
+  #site_logo+img{
+	  float: left;
+  }
+
+  
+   /* la partie droite */
+   header a:hover{
+	   font-size:1.1em;
+	   font-weight:bold;
+	   color: white;/*rgb(50,20,50);*/
+	   text-decoration: underline;
+   }
+   
+   header a{
+	   display:inline-block;
+	   margin-right: 10%;
+   }
+   form img{
+	   position: relative;
+	   top:6px;
+   }
+   #form_rech{
+	   display: inline-block;
+	   width: 45%;
+	  position: relative;
+	  left:10%;
+   }
+   
+   #search:hover{
+	   font-size:200%;
+   }
+  
+  form, #inscription_connection_div{
+	 display: inline-block;
+	 width: 40%;
+	 margin-left:5%;
+ }
+ 
+/* ======================================= LE NAV  */
+nav{
+	margin:auto;
+	width: 100%;
+}
+
+nav, a{
+	color:white;
+	text-decoration:none;
+	text-align:center;
+}
+
+#list_faculte{
+	background-color:rgb(50,20,50);
+	margin:auto;
+	width:97%;
+}
+
+nav ul li{
+	display:inline-block;
+	width:13%;
+	height: 40px;
+	vertical-align:top;
+	background-color: rgb(50,20,50);
+	padding-top:10px;
+}
+
+.deroul li{
+	min-width:98%;
+	text-align: center;
+	position:relative;
+	right:30px;
+	list-style-type:none;
+}
+
+.deroul{
+	visibility: hidden;
+	text-align: center;
+	position:relative;
+	right:12px;
+	top:15px;
+	vertical-align:left;
+	min-width:125%;
+}
+
+
+
+.deroul li:hover, nav ul li:hover{
+	background-color:rgb(0,0,0);
+	font-size:1.1em;
+	font-weight:bolder;
+	
+}
+
+#espace_membre{
+	position:relative;
+	right:3%;
+}
+
+/* ================================== article =======================*/
+
+article{
+	width:20%;
+	min-height:500px;
+	display:inline-block;
+	background-color: rgb(50,20,50);
+	vertical-align:top;
+	margin:5px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px black;
+}
+
+
+/* ================================== section =======================*/
+
+section{
+	width:56%;
+	min-height:500px;
+	display:inline-block;
+	background-color: rgb(50,20,50);
+	vertical-align:top;
+	margin:5px;
+	box-shadow: 2px 2px 4px black;
+	border-radius: 10px;
+}
+
+/* ================================== aside =======================*/
+
+aside{
+	width:20%;
+	min-height:500px;
+	display:inline-block;
+	background-color: rgb(50,20,50);
+	vertical-align:top;
+	margin:5px;
+	box-shadow: 2px 2px 4px black;
+	border-radius: 10px;
+}
+
+
+/* ================================== aside =======================*/
+
+footer{
+	width:100%;
+	min-height: 100px;
+	display:inline-block;
+	background-color: rgb(47,47,45);
+	vertical-align:top;
+	margin:auto;
+	box-shadow: 2px 2px 4px black;
+	border-radius: 10px;
+}
+
+#footer_div1{
+	text-align:center;
+	margin: 10px;
+}
+
+#footer_div1 a:hover{
+	text-decoration:underline;
+}
+
+#footer_div1 a, strong{
+	color: gray;
+	font-size: 1.2em;
+}
+
+#footer_div2{
+	margin: 10px;
+	text-align:center;
+}
+
+
+.footer_line{
+	display:inline-block;
+	width: 30%;
+	height: 2px;
+	background-color: rgb(120,120,120);
+	position: relative;
+	bottom: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#footer_uds_logo{
+	border-radius:6px;
+	text-align:center;
+	display:inline-block;
+	background-color: rgb(120,120,120);
+	width: 88px;
+	height: 82px;
+}
+
+#footer_uds_logo:hover, #footer_div3 a img:hover{
+	position:relative;
+	left: 7px;
+	bottom: 7px;
+}
+
+
+#footer_line2{
+	display:block;
+	height: 2px;
+	background-color: rgb(120,120,120);
+	margin:auto;
+	margin-bottom:30px;
+	margin-top:10px;
+	width:71%;
+}
+
+#footer_div3{
+	text-align:center;
+}
+
+#footer_div3 a{
+	display:inline-block;
+	margin-left:7%;
+}
+
+
+
